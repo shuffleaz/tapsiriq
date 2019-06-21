@@ -1,0 +1,187 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.container{
+    /* Mərkəzi Ortalamaq */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 
+- first-child
+- last-child
+- nth-child
+- first-line (paragraf)
+- first-letter
+- visited
+- hover
+- not
+- required
+- focus
+*/
+/* 
+.shuffle:nth-child(4) {
+    background:blue;
+}
+
+.link {
+    color:black;
+    font-weight: bold;
+}
+
+.link:visited {
+    color:red;
+}
+
+.link:hover {
+    text-shadow: 0px 5px 10px #171717;
+}
+
+p::first-letter {
+    font-size:30px;
+}
+
+.shuffle:hover {
+    box-shadow: 0px 5px 10px #171717;
+    background:lightcoral;
+}
+
+.menu {
+    margin:25px;
+    padding:0;
+}
+
+.menu li{
+    background: red;
+    display: inline;
+}
+
+.menu li:not(:last-child) {
+    padding-right:30px;
+}
+
+input {
+    display: block;
+}
+
+label {
+    font-size:14px;
+    font-weight: bold;
+}
+input {
+    height: 40px;
+    width: 200px;
+    outline: none;
+}
+
+form {
+    margin:25px;
+} */
+/* input:focus {
+    border:2px solid green;
+    box-shadow: 0px 5px 50px rgba(0,0,0,0.50);
+} */
+
+/* input:invalid {
+    border:2px solid red;
+}
+
+input:valid {
+    border:2px solid orange;
+}
+
+input[id="surname"] {
+    background:orange;
+}
+
+ input:invalid:required {
+    border:2px solid red;
+ }
+
+ input:valid {
+    border:2px solid green;
+}
+
+ .shuffle {
+     font-size:30px;
+     padding:30px;
+ }
+
+ .shuffle:before {
+     content: 'Shuffle';
+     padding-right:10px;
+     background:red;
+ }
+
+ .shuffle:after {
+     padding-left:10px;
+     content: 'Xos Geldiniz!';
+ } */
+
+
+ /* .shuffle::before {
+     content: url('../img/logo.png')
+ }
+ */
+
+ .shuffle {
+     width:250px;
+     height: 250px;
+     background: linear-gradient(to bottom, orange, red);
+     text-align: center;
+     color:white;
+     font-weight: bold;
+     font-size:26px;
+     line-height: 80px;
+
+     /* Səlis Keçidlər */
+     transition-delay: 0;
+     transition-duration: 1s;
+     transition-property: all;
+     transition-timing-function:ease-in-out;
+
+     margin-right:30px;
+ }
+
+ .shuffle2 {
+    width:250px;
+    height: 250px;
+    background: linear-gradient(to bottom, orange, red);
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:26px;
+    line-height: 80px;
+
+    /* Səlis Keçidlər */
+    /* transition-delay: 0;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function:cubic-bezier(1,1,.23,1.23); */
+
+    /* gecikmə, dəyər, saniyə, formalaşdırma */
+    /* transition:all 2s ease-in-out; */
+}
+
+ .shuffle:hover {
+    /* transform: rotate(5deg); */
+    /* transform: skew(-10deg); */
+    /* transform: skewX(10deg); */
+    /* transform: skewY(10deg); */
+    /* transform: scale(1); - sabit dəyər */
+    /* transform: scale(1.1); */
+    /* transform: translate(10px,10px); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    transform: scale(1.1);
+    background: linear-gradient(to bottom, lightcoral, red);
+ }
+
+ .shuffle2:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to bottom, lightcoral, red);
+ }

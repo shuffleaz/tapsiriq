@@ -1,0 +1,68 @@
+html,body {
+    margin:0;
+    padding: 0;
+}
+
+main {
+    background-color: red;
+}
+
+.container {
+    width: 760px;
+    margin:0 auto;
+}
+
+
+.latest-posts{
+    float:left;
+    width: 67%;
+}
+
+.events {
+    float: left;
+    width: 30%;
+    margin-left:10px;
+}
+
+.latest-posts-container {
+    margin-top:40px;
+    width:100%;
+}
+
+.article {
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid gray;
+    height: 150px;
+}
+
+.article-img {
+    width:30%;
+    float: left;
+}
+
+.article-description {
+    float: left;;
+    width: 70%;
+}
+
+.visit-blog{
+    float: right;
+}
+
+.latests-posts-line {
+    margin-top:30px;
+    width: 100%;
+    height: 2px;
+    background-color: #e8e8e8;
+    position: relative;
+}
+
+.latests-posts-line::before{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    background-color: #4cadc5;
+    left:0;
+}
