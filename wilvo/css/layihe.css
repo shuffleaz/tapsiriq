@@ -1,0 +1,50 @@
+html, body{ 
+    margin:0;
+    padding: 0;
+}
+
+.container {
+    width: 80vw;
+    display: flex;
+    margin:0 auto;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    flex:2;
+    background: green;
+}
+
+.menu {
+    flex:6;
+    background: yellow;
+}
+
+.orta{
+    display: flex;
+}
+
+.content {
+    flex:7;
+    background:lightcoral;
+}
+
+aside {
+    flex:3;
+    background: blue;
+}
+ aside p {
+    padding: 10px;
+
+ }
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}

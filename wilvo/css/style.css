@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html,body {
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right_input {
+    display: block;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+    background: linear-gradient(to bottom, #3e45d1, #30349f, #242575);
+    position: relative;
+}
+
+.right {
+    float:left;
+    width: 50%;
+    background-color: white;
+}
+
+.left header {
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.left header .logo {
+    float: left;
+    width: 40px;
+}
+
+.left header .logo img{
+    width:100%;
+}
+
+.left header .socialLinks {
+    float: right;
+}
+
+.left header .socialLinks ul li{
+    display: inline-block;
+}
+
+.left header .socialLinks ul li a {
+    color:white;
+}
+
+.main_part {
+    margin-top:120px;
+    text-align: center;
+}
+
+.main_part .main_part_description {
+    padding-top:18px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.main_part .main_part_description_title {
+    color:white;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.main_part .main_part_description_text {
+    font-size:12px;
+    font-weight: normal;
+    color:rgba(255, 255, 255, 0.4);
+    padding-top:10px;
+}
+
+.main_part .main_part_button {
+    padding-top:30px;
+}
+
+.main_part .main_part_button a{
+    color:white;
+    border-radius: 50px;
+    padding:9px 24px;
+    font-weight: bold;
+    font-size:12px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.17);
+    background-color:#3e45d1;
+}
+
+footer {
+    margin-top:40px;
+}
+
+.right_center {
+    display: block;
+    position: absolute;
+    top:30%;
+    left:75%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    margin-top:10px;
+    width: 80%;
+}
+
+.right_input {
+    margin-bottom:8px;
+    width: 250px;
+    height: 30px;
+    padding-left:10px;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    color:#171717;
+    outline: none;
+}
+
+#country {
+    margin-bottom:8px;
+    width: 262px;
+    height: 30px;
+    padding-left:10px;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    color:#171717;
+    outline: none;
+    background-color: white;
+    box-sizing: border-box;
+}

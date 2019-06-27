@@ -1,0 +1,63 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    /* VH, VW */
+    /* VH - Viewport Height */
+    /* VW - Viewport Width */
+}
+.flex {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse */
+    flex-direction: row;
+
+    /* Wrap */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* Justify Content - Ortalama */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: stretch;  - sabit dəyər */
+    /* align-items: stretch; */
+    /* justify-content: space-between; */
+    /* justify-content: space-between;
+    align-content: space-around; */
+    justify-content: center;
+
+}
+
+.box {
+    height: 150px;
+    background-color:#171717;
+    color:white;
+    text-align: center;
+    font-size:30px;
+    line-height: 150px;
+    /* flex-grow:1; */
+    flex-basis: 150px;
+
+    flex:1;
+}
+
+.box:nth-child(2) {
+    flex:5;
+    /* flex-shrink: 1; */
+}
+
+.box:last-child {
+    background-color: green !important;
+}
+
+.box:nth-child(even) {
+    background-color:lightcoral;
+}
